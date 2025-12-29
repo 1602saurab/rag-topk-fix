@@ -1,4 +1,10 @@
 
+uv venv 
+.venv/Scripts/activate
+
+uv add -r requirements.txt 
+
+
 uvicorn main:app --reload
 
 
